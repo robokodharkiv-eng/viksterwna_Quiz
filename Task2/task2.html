@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="task2.css">
+    <script src="https://raw.githack.com/aterrien/jQuery-Knob/master/dist/jquery.knob.min.js"></script>
+
+    <link rel="stylesheet" href="alertify/alertify.core.css">
+    <link rel="stylesheet" href="alertify/alertify.default.css">
+    <script src="alertify/alertify.min.js"></script>
+
+    <script src="task2.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1><i><u>Online-Music</u></i></h1>
+        <h2>Task 2. </h2>
+        <article>
+            <p class="slideRules">Description & Rules 🤍</p>
+            <div id="rules">
+                     <p>
+                        <ul style="list-style: none;">
+                            <li>
+                                <b>music</b> - ............
+                            </li>
+                            <br>
+                            <li>
+                                <b>music :</b>
+                                <ul style="margin-left: 40px;">
+                                    <li> в тесті 10 запитань</li>
+                                    <li>коли ви відповісте на всe правильно ви перейдете на іншу сторінку</li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                     </p>
+            </div>
+        </article>
+
+        <div class ="taskProgress">
+            <p>Task progress:</p>
+            <input type="text" value="0" class="progress">
+        </div>
+
+        <div class="timeProgress">
+            <p>Task Progress:</p>
+            <input type="text" value="0" class="time">
+        </div>
+
+        <div id="start">
+            <p>start quiz</p>
+        </div>
+
+        <div class="sound">
+            <audio controls src="#" id="melody">
+                your browser does nor support the
+                <code>audio</code> element
+            </audio>
+
+        </div>
+        
+        <div class="img">
+            <img src="#" alt="" id="picture">
+        </div>
+
+        <div class="answer">
+            <input type="text" id="inputTask" placeholder="Answer.....">
+            <input type="button" value="GO!" id="btnTask">
+        </div>
+
+        <a href="../Tasl3/index.html">
+            <div id="nextTask">
+                <p>Next Task -></p>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
